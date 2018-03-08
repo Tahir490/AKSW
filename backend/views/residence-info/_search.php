@@ -29,11 +29,19 @@ use yii\bootstrap\ActiveForm;
 
     <?php // echo $form->field($model, 'water_source') ?>
 
+    <?php // echo $form->field($model, 'water_source_others') ?>
+
     <?php // echo $form->field($model, 'toilet_type') ?>
+
+    <?php // echo $form->field($model, 'toilet_type_others') ?>
 
     <?php // echo $form->field($model, 'agricultural_land') ?>
 
+    <?php // echo $form->field($model, 'agricultur_land_size') ?>
+
     <?php // echo $form->field($model, 'non_agriculrural_land') ?>
+
+    <?php // echo $form->field($model, 'non_agriculrural_land_size') ?>
 
     <?php // echo $form->field($model, 'bank_account_info') ?>
 
@@ -47,7 +55,11 @@ use yii\bootstrap\ActiveForm;
 
     <?php // echo $form->field($model, 'child_died') ?>
 
+    <?php // echo $form->field($model, 'child_died_quantity') ?>
+
     <?php // echo $form->field($model, 'major_disease') ?>
+
+    <?php // echo $form->field($model, 'major_disease_details') ?>
 
     <?php // echo $form->field($model, 'Citizen_card') ?>
 
@@ -56,6 +68,8 @@ use yii\bootstrap\ActiveForm;
     <?php // echo $form->field($model, 'citizen_card_no') ?>
 
     <?php // echo $form->field($model, 'investment_info') ?>
+
+    <?php // echo $form->field($model, 'investment_details') ?>
 
     <div class="form-group">
         <?php echo Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
